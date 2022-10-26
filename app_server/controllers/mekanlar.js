@@ -55,7 +55,7 @@ const mekanBilgisi = function (req, res) {
         ],
         "yorumlar": [
             {
-                "yorumYapan": "Berat Sevim",
+                "yorumYapan": "Kaan Çetinkaya",
                 "puan": "4",
                 "tarih": "20 Ekim 2022",
                 "yorumMetni": "Kahveler iyi."
