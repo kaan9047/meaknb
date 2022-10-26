@@ -21,13 +21,13 @@ block content
                   if (saat.kapali)
                     | Kapalı
                   else 
-                    | #(saat.acilis)-#{saat.kapanis}
+                    | #{saat.acilis}-#{saat.kapanis}
           .panel.panel-primary
             .panel-heading
               h2.panel-title Neler Var?
             .panel-body
               each imkan in mekanDetay.imkanlar
-                span.label.label-warning = imkan
+                span.label.label-warning= imkan
                 | &nbsp;
         .col-xs-12.col-sm-6
           .panel.panel-primary 

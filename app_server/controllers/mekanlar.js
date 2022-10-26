@@ -44,18 +44,20 @@ const mekanBilgisi = function (req, res) {
         "saatler": [
             {
                 "gunler": "Pazartesi-Cuma",
-                "acilis": "9:00-23:00",
-                "kapali": "false"
+                "acilis": "9:00",
+                "kapanis": "23:00",
+                "kapali": false
             },
             {
                 "gunler": "Cumartesi-Pazar",
-                "acilis": "10:00-22:00",
-                "kapali": "false"
+                "acilis": "10:00",
+                "kapanis": "22:00",
+                "kapali": false
             }
         ],
         "yorumlar": [
             {
-                "yorumYapan": "Berat Sevim",
+                "yorumYapan": "Kaan Çetinkaya",
                 "puan": "4",
                 "tarih": "20 Ekim 2022",
                 "yorumMetni": "Kahveler iyi."
