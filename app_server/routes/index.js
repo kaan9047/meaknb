@@ -1,15 +1,13 @@
-
-
-
 var express = require('express');
 var router = express.Router();
-var ctrMekanlar=require('../controllers/mekanlar');
-var ctrDigerleri=require('../controllers/digerleri');
+var ctrlMekanlar = require('../controllers/mekanlar');
+var ctrlDigerleri = require('../controllers/digerleri');
 
-/* GET home page. */
-router.get('/',ctrMekanlar.anaSayfa);
-router.get('/mekan',ctrMekanlar.mekanBilgisi);
-router.get('/mekan/yorum/yeni',ctrMekanlar.yorumEkle);
-router.get('/hakkinda',ctrDigerleri.hakkinda);
+
+router.get('/', ctrlMekanlar.anaSayfa);
+router.get('/mekan', ctrlMekanlar.mekanBilgisi);
+router.get('/mekan/yorum/yeni', ctrlMekanlar.yorumEkle);
+router.get('/hakkinda', ctrlMekanlar.mekanBilgisi);
+
 
 module.exports = router;
